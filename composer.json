@@ -17,7 +17,10 @@
     ],
     "require": {
         "php": ">=8",
-        "ext-json": "*"
+        "ext-json": "*",
+        "illuminate/database": "*",
+        "illuminate/http": "*",
+        "illuminate/support": "*"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^2.16",
